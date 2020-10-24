@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export SUDO_ASKPASS="/usr/bin/gksu-base"
+
+sudo -A ${1+"$@"}

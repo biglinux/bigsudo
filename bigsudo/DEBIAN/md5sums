@@ -1,3 +1,5 @@
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-1ca29820c7aa48897f9d90c89e4d2fd9  DEBIAN/control
-6390cec1acc4685ca60e798491b57f07  usr/bin/bigsudo
+4b203daf9040110123592458f2dead35  DEBIAN/control
+57daaff0439c7a755ec0b180dc98b7fc  usr/bin/bigsudo
+f5f3f8be39835f1577c6cc3f2d55bcbe  usr/bin/gksu-base
+6a8a2ea051dea702052863a55b15e124  usr/bin/gksu
