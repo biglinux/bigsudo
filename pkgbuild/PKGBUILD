@@ -1,0 +1,20 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=bigsudo
+pkgver=7.0.1_1big
+pkgrel=1
+arch=('any')
+license=('GPL')
+url="https://github.com/biglinux/bigsudo"
+pkgdesc="Scriipt to solve some problems with sudo in KDE"
+source=("git+https://github.com/biglinux/bigsudo.git")
+md5sums=(SKIP)
+
+package() {
+    mkdir -p "${pkgdir}/usr"
+    cp -r "${srcdir}/bigsudo/bigsudo/usr/" "${pkgdir}/"
+    rm -f "${pkgdir}/usr/bin/gksu"
+    rm -f "${pkgdir}/usr/bin/gksu-base"
+}
+
+
